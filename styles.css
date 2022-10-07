@@ -1,0 +1,316 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-image: "https://akashedu.in/img/home/hero/bg.png";
+  max-width: 100%;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+
+}
+
+.container-fluid {
+  padding: 15% 20%;
+  display: flex;
+  align-items: left;
+  padding-left: 30px;
+  justify-content: space-between;
+  background-image: "https://akashedu.in/img/home/hero/bg.png";
+}
+
+.heading-container {
+  background-image: linear-gradient(rgb(3, 3, 90), rgb(251, 9, 195));
+}
+
+.text-purple-1 {
+  color: #6F38C5;
+}
+
+.coursesCard__title text-18 lh-1 fw-500{
+  color: #290c6e;
+  text-decoration: bold;
+}
+
+.heading {
+  line-height: 1.8;
+  font-size: 300%;
+  color: white;
+
+}
+
+.button {
+  border-radius: 20%;
+  padding: 10px 10px;
+}
+
+.btn {
+  border-radius: 100px;
+  height: 60px;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 12px 55px;
+  color: white;
+  display: flex;
+  align-items: center;
+  border: #182747;
+  background-color: #182747;
+}
+
+.d-inline-block {
+  display: flex !important;
+}
+
+.free-button {
+  border: none;
+  border-radius: 16px;
+  font-size: 10px;
+  background-color: #4CAF50;
+  color: white;
+  width: 50px;
+}
+
+.avatar {
+  width: 30px;
+}
+
+.nav {
+  list-style: none;
+  margin: 0;
+  padding: 15px;
+  text-align: center;
+  display: flex;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  display: inline-block;
+  padding: 10px;
+}
+
+.icons-div {
+  padding: 15px 10px;
+  display: flex;
+}
+
+.js-mouse-move {
+  width: 30%;
+}
+
+.col-xl-4 {
+  flex: 0 0 100% !important;
+  max-width: 100% !important;
+}
+
+.sectionTitle__title {
+  align-items: center;
+  margin: 0;
+}
+
+.logo-value-1{
+  font-size: large;
+  font-weight: 500;
+  color: #182747;
+}
+
+.sectionTitle{
+  margin-top: 50px;
+}
+
+.sectionTitle__title,
+.sectionTitle__text{
+  text-align: center;
+  color: #182747;
+  font-weight: 450;
+}
+
+.sectionTitle__text {
+  margin-top: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.recognized-text{
+  margin-bottom: 40px;
+}
+
+.coursesCard {
+  padding: 15px;
+}
+
+.description {
+  padding: 10px;
+}
+
+.recognised-by {
+  padding: 80px 0 0 80px;
+padding-bottom: 30px;
+font-weight: 4rem;
+text-align: center;
+  /* margin-left:100px ;
+  margin-right:100px  */
+
+}
+
+.popular-courses{
+padding: 60px;
+background-color: #DFE8CC;
+}
+
+.purple-button-1{
+  align-items: center;
+  display:flex;
+  justify-content: center;
+  color: white;
+  background-color: #6F38C5;
+  border: none;
+  font-size: 16px;
+  padding: 12px 28px;
+  border-radius: 8px;
+
+}
+
+.purple-button-first {
+  align-items: center;
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.popular-courses-heading{
+  padding-left: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.text-11 lh-1 uppercase fw-500 text-dark-1 {
+  margin: 0 20px;
+  display: flex;
+}
+
+.rating {
+  color: #FBDF07;
+  font-size: small;
+}
+
+.rating-1{
+  color: #395B64;
+  font-weight:300 ;
+  font-size: smaller;
+}
+
+
+
+.featured-courses {
+  padding: 50px;
+}
+
+.purple-button {
+  color: white;
+  display: flex;
+  justify-content: center;
+  background-color: #6F38C5;
+  border: none;
+  font-size: 16px;
+  padding: 12px 28px;
+  border-radius: 8px;
+}
+
+.featured-courses {
+  background-color: #290c6e;
+}
+
+.card {
+  border-radius: 10px;
+
+}
+
+.card-img-top {
+  width: 100%
+}
+
+.courseCard-footer {
+  display: flex;
+ 
+}
+
+.courseCard-price {
+  display: flex;
+  padding-left: 60px;
+}
+
+.courseCard-button{
+  padding-left: 20px;
+}
+
+.services {
+  margin-right: 80px;
+}
+
+.services-container {
+  padding: 0px;
+  margin-top: 30px;
+}
+
+.services h1, .services h7{
+   color: #ffffff;
+}
+
+.services .purple-button{
+  margin-top: 30px;
+}
+
+.learn-section {
+  padding-top: 60px;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.card img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  border-radius: 0;
+}
+.carousel-inner {
+  padding: 1em;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #182747;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@media (min-width: 768px) {
+  .card img {
+    height: 11em;
+  }
+}
+
+.footer-section {
+  background-color: #290c6e;
+   color: white;
+}
+  .social-icon {
+    margin: 20px 10px;
+    padding: 20px;
+  }
